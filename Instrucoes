@@ -1,0 +1,29 @@
+- Aritméticas:
+
+Soma - add
+Subtração - sub
+Multiplicação - mul
+Divisão - div
+Soma com carry (vai um) - addc
+Subtração com borrow (empresta um) - sbb
+Incrementar - inc
+Decrementar - dec
+
+- Transferência:
+
+mov
+
+- Desvio:
+
+cjne - Compare e jump (salte) se não iguais
+
+* Incondicionais:
+
+ajmp, ljmp, sjmp
+
+No ambiente de desenvolvimento são substituídos por "jmp <label>"
+
+* Condicional
+
+jz - Salta se o conteúdo do acc (acumulador) é Ø
+jnz - Salta se o conteúdo do acc (acumulador) é != Ø
